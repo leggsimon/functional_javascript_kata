@@ -10,6 +10,24 @@ My aim here is to implement the problem below in Javascript using a functional p
 * Referential Transparency
 * Immutability
 
+### Usage
+
+Node version `v6.1.0`
+
+To install clone this repo
+```
+git clone https://github.com/leggsimon/functional_javascript_kata.git
+```
+
+Install dependencies (there is only 1)
+```
+$ npm install
+```
+
+Run the program using node, passing the input file path as the second argument
+```
+$ node main.js ./fixtures/input0.txt
+```
 
 ### The Problem
 
@@ -151,3 +169,12 @@ Please note that only one route and one aircraft are allowed to be entered.
 Structure your code as if this was a real, production application. You may however choose to provide simplified implementations for some aspects (e.g. in-memory persistence instead of a full database, if you think any persistence is required at all).
 
 Please state any assumptions you make as comments in the codebase. If any aspects of the above specification is unclear then please also state, as comments in the source, your interpretation of the requirement.
+
+### Notes
+
+I haven't written to a new file as the point was to do functional programming. I did read the file so that I could parse it from it's raw state. I could've just as easily stored it as a string `const`.
+
+### Todo
+
+* Refactor
+* Rewrite in other languages
