@@ -1,0 +1,22 @@
+{
+  "name": "functional_javascript_kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leggsimon/functional_javascript_kata.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leggsimon/functional_javascript_kata/issues"
+  },
+  "homepage": "https://github.com/leggsimon/functional_javascript_kata#readme",
+  "dependencies": {
+    "fs": "0.0.2"
+  }
+}
